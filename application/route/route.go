@@ -1,16 +1,23 @@
 package route
 
-
+import (
+	"bufio"
+	"encoding/json"
+	"errors"
+	"os"
+	"strconv"
+	"strings"
+)
 
 type Route struct {
-	ID string
-	ClientID string
-	Positions []Position
+	ID        string     `json:"routeId"`
+	ClientID  string     `json:"clientId"`
+	Positions []Position `json:"position"`
 }
 
 type Position struct {
-	Lat float64
-	Long float64
+	Lat  float64 `json:"lat"`
+	Long float64 `json:"long"`
 }
 
 type PartialRoutePosition struct {
@@ -68,4 +75,8 @@ func (r *Route) ExportJsonPositions() ([]string, error) {
 		result = append(result, string(jsonRoute))
 	}
 	return result, nil
+}
+
+func NewRoute() *Route {
+	return &Route{}
 }
