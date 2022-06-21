@@ -1,3 +1,4 @@
+
 package main
 
 import (
@@ -12,7 +13,7 @@ import (
 func init() {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("error loading .env file")
+		log.Fatal("error loading .env file ---- tá rodando mas ainda tá com erro")
 	}
 }
 
