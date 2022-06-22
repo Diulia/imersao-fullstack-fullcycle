@@ -10,11 +10,6 @@ import (
 	"time"
 )
 
-// Produce is responsible to publish the positions of each request
-// Example of a json request:
-//{"clientId":"1","routeId":"1"}
-//{"clientId":"2","routeId":"2"}
-//{"clientId":"3","routeId":"3"}
 func Produce(msg *ckafka.Message) {
 	producer := kafka.NewKafkaProducer()
 	route := route2.NewRoute()
