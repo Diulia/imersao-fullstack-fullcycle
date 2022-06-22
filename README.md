@@ -18,3 +18,17 @@
 *[Docker]
 <!--te-->
 </p>
+
+<p>
+2° Aula:
+-Nest.js e backend orientado a microsserviços
+
+-🛠 Tecnologias utilizadas :
+
+<!--ts-->
+*[Nest.JS]
+*[JavaScript]
+*[TypeScript]
+<!--te-->
+</p>
+
