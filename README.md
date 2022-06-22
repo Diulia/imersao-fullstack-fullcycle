@@ -11,7 +11,10 @@
 1° Aula:
 -Projeto prático e microsserviços
 
--Tecnologias utilizadas :
--[Golang]
--[Docker]
+-🛠 Tecnologias utilizadas :
+
+<!--ts-->
+*[Golang]
+*[Docker]
+<!--te-->
 </p>
