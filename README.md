@@ -32,3 +32,17 @@
 <!--te-->
 </p>
 
+3° Aula:
+-React.js e tempo real utilizando websockets e geolocalização
+
+-🛠 Tecnologias utilizadas :
+
+<!--ts-->
+*[React.JS]
+*[JavaScript]
+*[TypeScript]
+*[HTML]
+*[CSS]
+<!--te-->
+</p>
+
