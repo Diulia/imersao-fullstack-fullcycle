@@ -4,6 +4,5 @@ if [ ! -f ".env" ]; then
   cp .env .env
 fi
 
-npm install
-
+# npm install
 npm run start:dev
